@@ -138,7 +138,8 @@ input:checked ~ .dropdown {
     width:30px;
     height:2px;
     background-color: maroon;
-    margin-left: 46%;
+    text-align: center;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -152,7 +153,7 @@ input:checked ~ .dropdown {
 }
 
 .feature{
-    background-image: url("13780500id-4553x2896ma.avif");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0)),url("13780500id-4553x2896ma.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,12 +166,26 @@ input:checked ~ .dropdown {
 .feature section{
     width: 600px;
     text-align: center;
+    color: white;
 }
 
+.feature h3{
+    font-family: "futura-pt", sans-serif;
+    font-size: meduim;
+    font-weight: 400;
+}
 
+.feature h2{
+    font-family: "operetta-12", serif;
+    font-size: xx-large;
+}
 
-
-
-
+.feature h4{
+    font-family: "futura-pt", sans-serif;
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 
