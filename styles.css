@@ -88,6 +88,9 @@ input:checked ~ .dropdown {
     display: flex;
 }
 
+
+
+
 .overskrift{
     border-bottom: 1px solid black;
     text-transform: uppercase;
@@ -111,6 +114,7 @@ input:checked ~ .dropdown {
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -142,8 +146,26 @@ input:checked ~ .dropdown {
 .kort h4{
     margin-top: 20px;
 }
+.kort section img{
+    width: 300px;
+    margin-bottom: 20px;
+}
 
-
+.feature{
+    background-image: url("13780500id-4553x2896ma.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.feature section{
+    width: 600px;
+    text-align: center;
+}
 
 
 
