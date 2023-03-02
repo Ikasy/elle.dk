@@ -103,3 +103,52 @@ input:checked ~ .dropdown {
     background-color: white;
     width: 250px;
 }
+
+
+
+
+.kort{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.kort section{
+    background-color:burlywood;
+    width: 300px;
+    height: 550px;
+    font-family: "operetta-12", serif;
+    text-align: center;
+    font-size: 12pt;
+    padding: 10px;
+}
+.placeholder{
+    width: 300px;
+    height: 300px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+.linje{
+    width:30px;
+    height:2px;
+    background-color: maroon;
+    margin-left: 46%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kort h4{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
